@@ -8,8 +8,8 @@ from model_vqc import Linear_QNet, QTrainer
 from helper import plot
 
 MAX_MEMORY = 100_000
-BATCH_SIZE = 64  #1000
-LR = 5e-4       #0.01
+BATCH_SIZE = 48  #1000
+LR = 2.5e-4       #0.01
 
 class Agent:
 
